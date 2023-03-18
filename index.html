@@ -16,6 +16,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+marquee{
+background-color: #4b444a;
+color: #eaf0fb;
+padding: 5px;
+opacity: 70%;
+
+}
+
 body{
    background-image: url(BackGround.jpg);
   
@@ -67,7 +76,7 @@ form{
 }
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+    color: #ebe2e2;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -85,24 +94,12 @@ label{
     font-size: 16px;
     font-weight: 500;
 }
-input{
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color: rgba(255,255,255,0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
-}
-::placeholder{
-    color: #e5e5e5;
-}
+
+
 button{
     margin-top: 50px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #d651b5;
     color: #080710;
     padding: 15px 0;
     font-size: 18px;
@@ -136,21 +133,23 @@ button{
     </style>
 </head>
 <body>
+    <marquee behavior="scroll" direction="right">FLOPPY BIRD</marquee>
     <div class="background">
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
     <form>
+        <h3>FLOPPY BIRD</h3>
         <h3>Select Difficulty</h3>
 
 
-        <button type="submit" class="action-button" formaction="https://ryanayo74.github.io/TEA-SHOP/">Easy</button>   
+        <button type="submit" class="action-button" formaction="/Flappy Bird Easy/flappybird Easy.html">Easy</button>   
 
-        <button type="submit" class="action-button" formaction="https://ryanayo74.github.io/TEA-SHOP/">Medium</button>
+        <button type="submit" class="action-button" formaction="/Flappy Bird Medium/flappybird Medium.html">Medium</button>
 
-        <button type="submit" class="action-button" formaction="flappybird Hard.html">Hard</button>
+        <button type="submit" class="action-button" formaction="/Flappy Bird Hard/flappybird Hard.html">Hard</button>
 
-        <button type="submit" class="action-button" formaction="https://ryanayo74.github.io/TEA-SHOP/">Easy</button>
+        <button type="submit" class="action-button" formaction="/Flappy Bird Impossible/flappybird Impossible.html">Impossible</button>
 
         <div class="social">
           <div class="go"><i class="fab fa-google"></i>  Google</div>
